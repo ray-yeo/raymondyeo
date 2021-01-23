@@ -1,0 +1,18 @@
+.company {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 0.5em;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}

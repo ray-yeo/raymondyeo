@@ -1,0 +1,16 @@
+.headshot {
+  width: 100%;
+  border-radius: 50%;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 0.5em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 2em;
+}

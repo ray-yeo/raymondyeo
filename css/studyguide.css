@@ -1,0 +1,21 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+iframe {
+  width: 80%;
+  height: 800px;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid black;
+}
