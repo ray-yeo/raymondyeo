@@ -11,3 +11,7 @@ h1 {
 * {
   font-family: "Open Sans", sans-serif;
 }
+
+.card-deck {
+  padding-bottom: 2em;
+}
