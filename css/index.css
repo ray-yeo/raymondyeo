@@ -7,6 +7,13 @@
   width: 50%;
   border-radius: 5%;
 }
+
+@media (max-width: 500px) {
+  img#optionalstuff {
+    display: none;
+  }
+}
+
 * {
   font-family: "Open Sans", sans-serif;
 }
