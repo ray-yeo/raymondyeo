@@ -1,23 +1,6 @@
 body {
   background-color: #fff6e8;
 }
-
-.headshot {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2em;
-  height: 50%;
-  width: 50%;
-  border-radius: 5%;
-}
-
-@media (max-width: 500px) {
-  img#optionalstuff {
-    display: none;
-  }
-}
-
 * {
   font-family: "Open Sans", sans-serif;
 }

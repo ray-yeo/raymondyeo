@@ -2,6 +2,10 @@ body {
   background-color: #fff6e8;
 }
 
+.title {
+  text-decoration: underline;
+}
+
 .company {
   height: 100%;
   width: 100%;

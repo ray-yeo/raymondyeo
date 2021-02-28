@@ -23,112 +23,94 @@
     <link rel="stylesheet" href="css/projects.css" />
   </head>
   <body>
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html">ryeo</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="experience.html">.experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="projects.html">.projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="resume.html">.resume</a>
-          </li>
-
-          <!-- Dropdown -->
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              .other
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="reads.html">reads</a>
-              <a class="dropdown-item" href="studyguide.html">study guide</a>
-          </li>
-        </ul>
-
-        <!-- Socials -->
-        <ul class="nav navbar-nav ml-auto">
-          <a href="https://linkedin.com/in/raymond-yeo/" class="nav-link"
-            ><i class="fab fa-linkedin-in btn btn-dark"></i
-          ></a>
-          <li>
-            <a href="https://github.com/ray-yeo" class="nav-link"
-              ><i class="fab fa-github btn btn-dark"></i
-            ></a>
-          </li>
-          <li>
-            <a href="mailto:raymond_yeo@brown.edu" class="nav-link"
-              ><i class="far fa-envelope btn btn-dark"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- Navbar End -->
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="index.html">home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="experience.html">experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resume.html">resume</a>
+              </li>
+    
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  other
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="reads.html">reads</a>
+                  <a class="dropdown-item" href="studyguide.html">study guide</a>
+              </li>
+            </ul>
+    
+            <!-- Socials -->
+            <ul class="nav navbar-nav ml-auto">
+              <a href="https://linkedin.com/in/raymond-yeo/" class="nav-link"
+                ><i class="fab fa-linkedin-in btn btn-dark"></i
+              ></a>
+              <li>
+                <a href="https://github.com/ray-yeo" class="nav-link"
+                  ><i class="fab fa-github btn btn-dark"></i
+                ></a>
+              </li>
+              <li>
+                <a href="mailto:raymond_yeo@brown.edu" class="nav-link"
+                  ><i class="far fa-envelope btn btn-dark"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Navbar End -->
     <!-- Projects -->
     <div class="container">
-      <h1 class="display-3 text-left">Projects</h1>
-      <div class="card-deck">
-        <div class="card text-center">
-          <div class="card-body">
-            <h5 class="card-title">Sports Trade Analyzer</h5>
-            <hr>
-            <p class="card-text">Trade analyzer obtains key statistical categories of each player through web scraping. Computes a weighted sum of relevant statistics and calculates the “fairness” as the difference between each player’s sums.</p>
-            <p class="card-text"><small class="text-muted">Python</small></p>
-          </div>
-          <div class="card-footer">
-            <a href="https://github.com/ray-yeo/baseball-trader" class="btn btn-success stretched-link">View Code</a>
-          </div>
-        </div>
-        <div class="card text-center">
-          <div class="card-body">
-            <h5 class="card-title">Personal Website</h5>
-            <hr>
-            <p class="card-text">This was built using HTML/CSS at its foundation, Bootstrap to organize
-              everything, and a hint of Javascript for responsiveness</p>
-            <p class="card-text"><small class="text-muted">HTML/CSS, Bootstrap, Javascript</small></p>
-          </div>
-          <div class="card-footer">
-            <a href="https://github.com/ray-yeo/raymondyeo" class="btn btn-success stretched-link">View Code</a>
-          </div>
-        </div>
-        <div class="card text-center">
-          <div class="card-body">
-            <h5 class="card-title">Shell Terminal</h5>
-            <hr>
-            <p class="card-text">Constructed a shell terminal that takes terminal inputs and parses
-              commands to operate as a Linux terminal. Shell terminal can launch
-              jobs to run in both the foreground and background, maintains a list of
-              job IDs, and responds to terminal signals</p>
-            <p class="card-text"><small class="text-muted">C</small></p>
-          </div>
-          <div class="card-footer">
-            <a href="mailto:raymond_yeo@brown.edu" class="btn btn-success stretched-link">Request Code</a>
-          </div>
-        </div>
+      <!-- Baseball Trade Analyzer -->
+      <br>
+      <div class="row">
+          <h3>Projects</h3>
+          <p>
+            <strong><span class = "title">Baseball Trade Analyzer</span></strong> | Python
+            <br />
+            Trade analyzer obtains key statistical categories of each player through web scraping. 
+            Computes a weighted sum of relevant statistics and calculates the “fairness” as the difference between each player’s sums.
+          </p>
+      </div>
+      <hr />
+
+      <!-- Brown IT -->
+      <div class="row">
+          <p>
+            <strong> <span class = "title">Shell Terminal</span></strong>| C
+            <br />
+            Constructed a shell terminal that takes terminal inputs and parses commands to operate as a Linux terminal. 
+            Shell terminal can launch jobs to run in both the foreground and background, maintains a list of job IDs, and responds to terminal signals
+          </p>
       </div>
     </div>
   </body>
