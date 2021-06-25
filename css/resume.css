@@ -1,4 +1,26 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
 body {
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 97%;
+  position: absolute;
+  display: table;
   background-color: #fff6e8;
 }
 
@@ -10,12 +32,4 @@ iframe {
   border: 1px solid black;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-}
-
-h1 {
-  font-family: "Montserrat", sans-serif;
-}
-
-* {
-  font-family: "Open Sans", sans-serif;
 }
