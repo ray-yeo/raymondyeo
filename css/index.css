@@ -5,6 +5,10 @@ h1 {
   text-align: center;
 }
 
+iframe {
+  padding: 10px;
+}
+
 .center {
   display: block;
   margin-left: auto;
