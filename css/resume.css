@@ -1,26 +1,16 @@
 * {
   font-family: "Open Sans", sans-serif;
 }
-h1 {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-}
 
-p {
-  display: table-cell;
-  vertical-align: middle;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  font-size: 1.2em;
-  line-height: 2em;
+  width: 50%;
 }
 
 body {
-  top: 0;
-  left: 0;
-  width: 99%;
-  height: 97%;
-  position: absolute;
-  display: table;
   background-color: #fff6e8;
 }
 

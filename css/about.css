@@ -7,19 +7,13 @@ h1 {
 }
 
 p {
-  display: table-cell;
-  vertical-align: middle;
   text-align: center;
   font-size: 1.2em;
   line-height: 2em;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 body {
-  top: 0;
-  left: 0;
-  width: 99%;
-  height: 97%;
-  position: absolute;
-  display: table;
   background-color: #fff6e8;
 }
