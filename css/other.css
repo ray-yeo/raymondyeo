@@ -1,0 +1,18 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  padding-bottom: 0.5em;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 2em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+body {
+  background-color: #fff6e8;
+}
