@@ -16,3 +16,8 @@ p {
 body {
   background-color: #fff6e8;
 }
+
+a {
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
