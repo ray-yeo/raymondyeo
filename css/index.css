@@ -14,7 +14,7 @@ iframe {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 50%;
+  width: 40%;
 }
 
 #homeimage {
@@ -28,6 +28,7 @@ body {
 
 .footer {
   display: block;
+  padding-top: 5%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
