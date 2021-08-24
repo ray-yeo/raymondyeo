@@ -25,3 +25,11 @@ iframe {
 body {
   background-color: #fff6e8;
 }
+
+.footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+}
