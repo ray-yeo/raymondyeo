@@ -27,10 +27,10 @@ p {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 40%;
+  width: 60%;
 }
 
-#homeimage {
+img {
   height: auto;
   padding: 20px;
 }
