@@ -15,6 +15,10 @@ iframe {
   width: 30%;
 }
 
+.header {
+  font-size: 1em;
+}
+
 p {
   text-align: center;
   font-size: 1.2em;
