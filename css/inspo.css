@@ -1,7 +1,12 @@
-
 h1 {
   text-align: center;
   padding: 1em;
+}
+
+ul {
+  list-style-position: inside;
+  font-size: 1.2em;
+  line-height: 2em;
 }
 
 i {
