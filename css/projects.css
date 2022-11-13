@@ -1,4 +1,6 @@
-
+* {
+  font-family: "Times New Roman", Times, serif;
+}
 h1 {
   padding-bottom: 0.5em;
 }
@@ -11,7 +13,7 @@ h1 {
   padding-right: 10%;
 }
 
-.lists{
+.lists {
   text-align: left;
   font-size: 1.2em;
   line-height: 2em;
