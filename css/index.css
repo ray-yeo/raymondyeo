@@ -34,7 +34,8 @@ p {
 }
 
 #homeimage {
-  height: auto;
+  /* height: auto; */
+  width: 30%;
   padding: 10px;
 }
 
