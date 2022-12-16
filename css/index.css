@@ -6,6 +6,10 @@ h1 {
   text-align: center;
 }
 
+hr {
+  border-top: 1px solid black;
+  width: 50%;
+}
 i {
   padding: 2%;
 }
@@ -34,7 +38,7 @@ p {
 }
 
 #homeimage {
-  /* height: auto; */
+  height: auto;
   width: 30%;
   padding: 10px;
 }
