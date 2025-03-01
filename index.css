@@ -1,3 +1,7 @@
+a {
+    color:black;
+}
+
 a:visited{
     color:black;
 }
@@ -11,7 +15,7 @@ a:visited{
     top: 10; /* Aligns to the top */
     left: 50%; /* Moves to the middle */
     transform: translateX(-50%); /* Centers the element */
-    font-size: 24px; /* Adjust size as needed */
+    font-size: 14px; /* Adjust size as needed */
     background-color: white;
     padding: 5px; /* Adds space around text for better readability */
     display: inline-block; /* Ensures the background only covers the text */
@@ -30,8 +34,8 @@ body {
 
 /* BUSINESS CARD */
 .business-card {
-    width: 400px;
-    height: 220px;
+    width: 350px;
+    height: 200px;
     background: #ffffff;
     color: #2e2e2e;
     border-radius: 5px;
@@ -98,7 +102,7 @@ body {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%); /* Centers the container */
-    width: 50%;
+    width: 80%;
     border: 3px solid white;
     height: 100px; /* Set the height to 100px */
     margin: 10px;
