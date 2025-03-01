@@ -1,43 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>raymond yeo: online business card</title>
-    <link rel="stylesheet" href="css/index.css" />
-    <!-- <script src="https://kit.fontawesome.com/d6c9a8370e.js" crossorigin="anonymous"></script> -->
 
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
 
-  <body>
-    <h1>
-      <i>raymond yeo</i>
-    </h1>    
-    <p>
-      <a href="https://linkedin.com/in/raymond-yeo/">linkedin</a> //
-      <a href="https://github.com/ray-yeo">github</a> //
-      <a href = "projects.html">projects</a> //
-      <a href = "https://www.goodreads.com/user/show/165193240-raymond-yeo">goodreads</a>
-    </p>
+<body>
 
+    <div class = "header">
+        <p id="date"></p>
+        <div id="output"></div>
+    </div>
 
-
-    <img src="assets/new.jpg" id = "homeimage" class = "center">
-
-    <p>
-      Computer Science & Economics @ Brown
-      <br> 
-      Interested in the intersections between technology, business, and social good.
-      <br>
-      Incoming Business Analyst at Capital One.
-    </p>
+    <!-- Business Card -->
+    <div class="business-card" >
+        <div class="card-header">
+            <div class="smaller-text"><a href="https://instagram.com/wry.mood">212 555 6342</a></div>
+            <img class="logo" src="Leap_Years_2025.png" alt="Logo">
+        </div>
+        <div>
+            <div class="name">Raymond YEO</div>
+            <div class="roles"> <a href="https://leapyears.substack.com">Writer</a> •
+                <a href="https://rayyeo.com">Builder</a> •
+                <a href="https://linkedin.com/in/raymond-yeo">Analyst</a>
+            </div>
+        </div>
+        <div class="address">
+            Washington, D.C.
+        </div>
+    </div>
 
     <!-- <p>
-      time in providence, ri
-      <br>
-      <iframe src="https://free.timeanddate.com/clock/i8l9x461/n878/fn15/fs20/tct/pct" frameborder="0" width="118" height="26" allowtransparency="true"></iframe>
+        <a href="https://drive.google.com/file/d/1JXj7fNico2ZuA9ma3aHsaMydfMbC9Sl8/view?usp=sharing">memoirs on college hill</a> //
+        <a href="https://bluenogpa.com">brown gpa calculator</a>
     </p> -->
 
-  
-  </body>
+
+    <!-- Turtle iframe (Top-left corner) -->
+    <div class="iframe-container left">
+        <iframe class = "turtles"
+            src="https://cdn.abowman.com/widgets/turtles/?up_waterColor=d0dce5&up_percentWater=0.75&up_groundColor=eeeeee&up_numTurtles=3&up_turtle1LegColor=828250&up_turtle1HeadColor=828250&up_turtle1ShellColor=66663f">
+        </iframe>
+    </div>
+
+    <!-- Goodreads iframe (Top-right corner) -->
+    <div class="iframe-container right">
+        <iframe sandbox id="the_iframe"
+            src="https://www.goodreads.com/widgets/user_update_widget?height=400&num_updates=3&user=165193240&width=250"
+            width="248" height="330" frameborder="0"></iframe>
+        <div id="gr_footer">
+            <a href="https://www.goodreads.com/">
+                <img alt="Goodreads: Book reviews, recommendations, and discussion" rel="nofollow"
+                    src="https://s.gr-assets.com/images/layout/goodreads_logo_140.png" />
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
 </html>
