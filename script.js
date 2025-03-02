@@ -1,44 +1,47 @@
 const adjectives = [
-    "serpentine", "jagged", "thorny", "bristling", "silken", "prickly", "scraggly",
-    "serrated", "chiseled", "gossamer", "plush", "mottled", "crackling", "flickering",
-    "sputtering", "luminous", "glistening", "shimmering", "incandescent", "radiant",
-    "coruscating", "opalescent", "translucent", "wispy", "smoky", "ethereal", "twilight",
-    "eclipsed", "cloaked", "shadowy", "crimson", "dusky", "ashen", "sable", "murky",
-    "frosted", "forlorn", "gory", "verdant", "sepulchral", "glowering", "ominous",
-    "billowing", "undulating", "swirling", "meandering", "howling", "plummeting",
-    "quivering", "sagging", "dripping", "clattering", "spiraling", "churning",
-    "blistering", "smoldering", "warped", "gargantuan", "monolithic", "cavernous",
-    "ravenous", "staggering", "labyrinthine", "torrential", "sweltering", "frigid",
-    "musty", "drenched", "putrid", "festering", "turbulent", "looming", "broken",
-
-    // happy
+    "luminous", "serpentine", "verdant", "glistening", "billowing", "crimson", "shadowy",
+    "effervescent", "jagged", "sublime", "scorched", "frostbitten", "torrential", "glacial",
+    "honeyed", "bristling", "phantasmal", "sinuous", "silken", "thorny", "whispering",
+    "smoldering", "tattered", "murky", "resplendent", "shimmering", "gory", "syrupy",
+    "chiseled", "blistering", "mirthful", "dusky", "cavernous", "ravenous", "sweltering",
+    "gargantuan", "musty", "incandescent", "feral", "delirious", "quivering", "opalescent",
+    "drenched", "buoyant", "prickly", "twilight", "monolithic", "labyrinthine", "cacophonous",
+    "staggering", "frigid", "undulating", "eclipsed", "cloaked", "smoky", "spiraling",
+    "gushing", "ominous", "translucent", "sepulchral", "wispy", "plummeting", "frenzied",
+    "cascading", "fragrant", "ashen", "echoing", "looming", "sinister", "coruscating",
+    "warped", "festering", "turbulent", "dappled", "gossamer", "serrated",
+    "brooding", "putrid", "radiant", "writhing", "meandering", "sputtering", "howling",
+    "scraggly", "crackling", "flickering", "plush", "frosted", "swirling", "undying",
+    "mottled", "opulent", "churning", "dizzying", "sagging", "glowering",
+    "forlorn", "clattering", "windblown", "dripping", "sable", "peering", "ethereal",
+    "broken",
+  
+    // Happy & Lighthearted
     "wobbly", "goofy", "bouncy", "noodle-like", "wonky", "squishy",
     "fluffy", "pudgy", "zany", "dopey", "jolly", "wiggly",
     "boisterous", "perky", "clumsy", "giggly", "puffy", "bubble-like",
     "derpy", "bubbly", "sproingy", "sassy", "frizzy", "chaotic",
     "puckered", "flibbertigibbet", "jangly", "lopsided", "plonky",
     "doodly", "snazzy", "crumpled", "fizzy", "dizzy", "gooberish"
-];
+  ];
 
 const nouns = [
 
-    // abstract nouns
     "depression", "brilliance", "fury", "strength", "greed", "hope", "self-control",
     "symmetry", "fragmentation", "tension", "purity", "sorrow", "victory", "lust",
-    "abundance", "embarrassment",
+    "abundance", "embarrassment", "melancholy", "clarity", "whimsy", "solitude",
+    "chaos", "euphoria", "despair", "serenity", "nostalgia", "devotion",
 
-    // walls on glass dream book
     "snakes fighting", "hen sitting on a cow", "invisible person", "phoenix eyes", 
     "flower accessories", "mr. universe", "cowboy", "opera singer", "marinated fish",
     "eel", "silkworms on mulberry tree", "shipwreck", "dragon king", "rainbow",
-    "centipede", "sixth sense",
-
-    // walls on glass nouns
+    "centipede", "sixth sense", "labyrinth", "forgotten staircase", "paper crane", 
+    "whispering statues", "burning tapestry",
     "bridge of gold", "astronaut", "cumulonimbus", "azure", "celadon", "canal",
     "eclipse", "grandmother", "armchair", "volcano", "airport", "jail", "casino",
-    "newspaper", "dice", "boxcar",
+    "newspaper", "dice", "boxcar", "stained glass window", "hidden alleyway",
+    "desert mirage", "moonlit garden", "hanging lanterns",
 
-    // mine
     "spider", "subway", "white house", "out of tune piano", "creamy espresso",
     "checked luggage", "willow", "raspberry", "unscented candle", "silver spoon",
     "los angeles", "new york", "paris", "museum", "periwinkle blue", "rosemary",
@@ -49,9 +52,14 @@ const nouns = [
     "summer", "vagabond", "maple syrup", "bullet train", "midnight", "morning dew",
     "unopened newspaper", "ocean", "slaughterhouse", "wrinkle",
     "americano", "sparrow", "rusted silver", "snow", "porcelain mug", "black butterfly"
-    , "graveyard", "summer baseball", "thyme", "fabric coaster", "child's hand", "strawberry"
+    , "graveyard", "summer baseball", "thyme", "fabric coaster", "child's hand", "strawberry",
 
-
+    "abandoned carousel", "candlelit corridor", "tattered book", "flickering neon sign",
+    "ancient coin", "glass bottle bobbing in the sea", "moonstone", "forgotten love letter",
+    "fractured mirror", "moth-eaten curtain", "shadow puppet", "rusted key", "train whistle",
+    "glowing ember", "lighthouse in the fog", "spiral staircase", "withered vines",
+    "music box", "sunken ship", "crumbling cathedral", "chessboard", "silver locket",
+    "melting icicle", "frozen pond", "lantern festival", "distant thunder", "meteor shower"
 ];
 
 var timestamp = new Date().getTime();
