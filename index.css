@@ -10,15 +10,22 @@ a:visited{
     /* cursor: url('heart.png') 16 16, auto; */
 }
 
-.header {
+.header-container {
     position: absolute;
-    top: 10; /* Aligns to the top */
-    left: 50%; /* Moves to the middle */
-    transform: translateX(-50%); /* Centers the element */
-    font-size: 14px; /* Adjust size as needed */
+    top: 10px; /* Aligns to the top */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers text horizontally */
+    gap: 10px; /* Adds space between elements */
+}
+
+.header {
+    font-size: 14px;
     background-color: white;
-    padding: 5px; /* Adds space around text for better readability */
-    display: inline-block; /* Ensures the background only covers the text */
+    padding: 5px;
+    display: inline-block;
 }
 
 /* MAIN */
