@@ -39,7 +39,7 @@ const nouns = [
     "whispering statues", "burning tapestry",
     "bridge of gold", "astronaut", "cumulonimbus", "azure", "celadon", "canal",
     "eclipse", "grandmother", "armchair", "volcano", "airport", "jail", "casino",
-    "newspaper", "unlucky dice", "boxcar", "stained glass window", "hidden alleyway",
+    "newspaper",  "eletronic calculator", "unlucky dice", "boxcar", "stained glass window", "hidden alleyway",
     "desert mirage", "moonlit garden", "hanging lanterns",
 
     "spider", "subway", "white house", "out of tune piano", "creamy espresso",
