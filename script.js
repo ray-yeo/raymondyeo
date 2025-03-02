@@ -101,7 +101,7 @@ function generateDailyWords() {
     const adj = getRandomWord(adjectives, dayOfYear);
     const noun = getRandomWord(nouns, dayOfYear);
 
-    document.getElementById("date").textContent = `Today's Date: ${dateString}`;
+    document.getElementById("date").textContent = `Today's Date:  ${dateString}`;
     document.getElementById("output").textContent = `Today's Phrase: ${adj} ${noun}`;
 }
 

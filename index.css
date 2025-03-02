@@ -10,6 +10,8 @@ a:visited{
     cursor: url('cursor.cur') 16 16, auto;
 }
 
+/* https://www.cursor.cc/ */
+
 .back-button {
     position: absolute;
     top: 20px;
