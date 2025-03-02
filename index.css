@@ -6,6 +6,10 @@ a:visited{
     color:black;
 }
 
+a:hover{
+    background-color: #efe8d8;
+}
+
 * {
     cursor: url('cursor.cur') 16 16, auto;
 }
