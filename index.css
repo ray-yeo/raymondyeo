@@ -10,6 +10,46 @@ a:visited{
     cursor: url('cursor.cur') 16 16, auto;
 }
 
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect */
+/* .back-button:hover {
+    background-color: gray;
+} */
+
+/* Stack projects in the middle */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+    gap: 20px; /* Adds spacing between projects */
+}
+
+/* Styling for each project */
+.project {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 60%; /* Adjust width as needed */
+}
 .header-container {
     position: absolute;
     top: 10px; /* Aligns to the top */
