@@ -16,6 +16,26 @@ a:hover{
 
 /* https://www.cursor.cc/ */
 
+.daily-phrase {
+    position: absolute;
+    /* transform: translate(-50%, -50%) translate(-150px, -150px); Center + Shift */
+    left: 10%;
+    top: 20%;
+}
+
+.daily-phrase img {
+    width: 100px;
+}
+
+.daily-phrase:hover {
+    animation: jiggle 0.2s infinite alternate;
+}
+
+@keyframes jiggle {
+    0% { transform: rotate(-5deg); }
+    100% { transform: rotate(5deg); }
+}
+
 .back-button {
     position: absolute;
     top: 20px;
@@ -69,7 +89,7 @@ a:hover{
 
 .header {
     font-size: 14px;
-    background-color: white;
+    /* background-color: white; */
     padding: 5px;
     display: inline-block;
 }
