@@ -62,9 +62,6 @@ const nouns = [
     "melting icicle", "frozen pond", "lantern festival", "distant thunder", "meteor shower"
 ];
 
-var timestamp = new Date().getTime();
-document.write('<script src="script.js?v=' + timestamp + '"><\/script>');
-
 function getRandomWord(array, seed) {
     return array[seed % array.length];
 }
@@ -88,5 +85,5 @@ function generateDailyWords() {
 
 
 document.querySelector('.daily-phrase').addEventListener('click', function() {
-    alert(generateDailyWords());
+    alert(generateDailyWords() + '\nUse it to draw, write, and imagine.');
 });
